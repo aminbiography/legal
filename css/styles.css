@@ -1,0 +1,130 @@
+/* Base styles */
+.body-background {
+  margin: 50px 20px 0px 20px;
+}
+
+.collapse.navbar-collapse {
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  background-color: burlywood;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.input-group {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img-top {
+  margin: 1rem auto;
+  display: block;
+  width: 50%;
+  max-width: 100px;
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card-img-bottom {
+  margin: 1rem auto;
+  display: block;
+  width: 2rem;
+  height: 2rem;
+}
+
+.footer-all-section {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(53, 52, 52);
+  padding: 2rem;
+  gap: 2rem;
+  text-align: center;
+}
+
+.footer-all-section > div {
+  flex: 1;
+}
+
+.f-logo {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .body-background {
+    margin: 50px 100px 0px 100px;
+  }
+
+  .footer-all-section {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .f-logo {
+    margin-left: 3rem;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .body-background {
+    margin: 50px 250px 0px 250px;
+  }
+
+  .input-group {
+    gap: 20px;
+    flex-direction: row;
+  }
+
+  .card-img-top {
+    margin-left: 8rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .card-img-bottom {
+    margin-top: 1rem;
+    margin-left: 9rem;
+    margin-bottom: 2rem;
+    width: 2rem;
+    height: 2rem;
+  }
+}
